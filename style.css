@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Parisienne", cursive, sans-serif;
     margin-top: 6%;
     background-image: url('./assets/patitas.jpg');
     background-size: cover;
@@ -39,6 +39,9 @@ body {
     font-size: 1.25rem;
 }
 
+.bg-nav{
+    background-color: #7e008054;
+}
 
 
 /* Estilos personalizados para las tarjetas */
@@ -50,6 +53,17 @@ body {
 .card-text {
     font-size: 1rem;
     color: #333;
+}
+  /* Ajustar margen entre tarjetas */
+  .card {
+    margin-bottom: 20px;
+}
+
+/* Estilo para el título de la página */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .btn-primary {
@@ -71,4 +85,21 @@ body {
 }
 .info-section p {
     font-size: 1.1rem;
+}
+
+footer {
+    height: 100px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #7e008054;
+}
+/*texto del footer*/
+.texto{
+    color:white
+}
+
+/*Estilo del Logo*/
+.logo{
+    border-radius: 3em;
+    width: 2em;
 }
